@@ -1,8 +1,5 @@
 # Speech-enabled Question Answering System with PDF Integration
 
-## Introduction
-------------
-The Speech-enabled Question Answering System with PDF Integration is a Python application that combines the capabilities of natural language processing and speech recognition to allow users to ask questions about multiple PDF documents using their voice. This system extracts text content from PDFs and generates accurate responses to user queries based on the content of the documents. Please note that the system will only respond to questions related to the loaded PDFs.
 # Voice ED
 
 ## Project Overview
