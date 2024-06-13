@@ -3,7 +3,44 @@
 ## Introduction
 ------------
 The Speech-enabled Question Answering System with PDF Integration is a Python application that combines the capabilities of natural language processing and speech recognition to allow users to ask questions about multiple PDF documents using their voice. This system extracts text content from PDFs and generates accurate responses to user queries based on the content of the documents. Please note that the system will only respond to questions related to the loaded PDFs.
+# Voice ED
 
+## Project Overview
+Voice ED is a web application that leverages AI to provide voice-based question answering from custom data contained in PDF documents. It is designed for educators, researchers, and anyone needing efficient, voice-activated information retrieval from their documents. Voice ED presents a convenient solution for extracting and answering questions based on your text materials.
+
+### Features
+- **Voice Interaction:** Allows users to interact with the application using voice commands to ask questions and receive spoken answers.
+- **Document Upload:** Supports uploading PDF files for processing and information extraction.
+- **Question Answering:** Provides detailed answers to user queries based on the content of uploaded PDFs.
+- **Audio Responses:** Delivers answers in audio format using text-to-speech conversion.
+- **Wake Word Activation:** Allows voice-activated interaction with a predefined wake word.
+
+## Technologies Used
+- **Programming Languages:** Python
+- **Libraries and Frameworks:** Streamlit, FAISS, langchain, langchain_google_genai, dotenv, PyPDF2, gTTS, pygame, speech_recognition
+- **Cloud Platform:** Google Cloud Platform (for Google Generative AI API)
+
+## NLP Algorithm
+Utilizes pre-trained language models through the ChatGoogleGenerativeAI model from langchain_google_genai to generate detailed answers to user queries.
+
+## Document Parsing
+- **PDF Parsing:** Uses PyPDF2 to extract text from PDF files.
+
+## Voice Interaction
+- **Speech Recognition:** Utilizes the speech_recognition library to convert spoken queries into text.
+- **Text-to-Speech:** Uses gTTS and pygame to convert text responses into spoken audio.
+
+## Streamlit Interface
+Uses Streamlit to create an interactive web interface, allowing users to upload PDF documents, ask questions via text or voice, and listen to audio responses.
+
+## Error Handling
+Includes robust error handling to detect, log, and display informative error messages.
+
+## Question Answering Process
+Parses uploaded documents, extracts text, and generates detailed answers to user queries based on the context of the documents.
+
+## Deployment
+The application is deployed on a cloud platform, making it easily accessible to users.
 ## How It Works
 ------------
 
